@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+
+    <title>Projeto</title>
+</head>
+    <body>
+
+        <div class="fundo-video">
+            <video class="video" autoplay loop muted>
+                <source src="./src/video/video-vinland-op.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <header class="cabecalho">
+            <a href="https://vinlandsaga.jp/" target="_blank">
+               <img class="logo" src="./src/imagens/vinland-icon.png" alt="logo personagens Vinland"> 
+            </a>
+            <nav>
+				<ul class="menu">
+					<li><a style="display: none;" href="#">Home</a></li>
+					<li><a href="https://anilist.co/anime/101348/VINLAND-SAGA/" target="_blank">Detalhes</a></li>
+				</ul>
+			</nav>
+        </header>
+        <main class="container">
+            <div class="informacoes">
+                <img class="imagem-titulo-principal" src="./src/imagens/titulo-vinland-principal.png" alt="imagem do título do anime" />
+                <img class="imagem-titulo-responsive" src="./src/imagens/titulo-vinland-secundario.png">
+                <p class="descricao">O jovem Thorfinn cresceu ouvindo histórias de velhos marinheiros que velejavam pelo oceano e chegaram na terra lendária, Vinland. É uma terra dita por ser quente e fértil, um lugar em que não haveria razão para lutar. Thorfinn, no entanto, percebeu que enquanto ele crescia, estava cada vez mais longe desta realidade.</p>
+            <div class="div-botoes"b>
+                <button class="botao-trailer">Veja o trailer</button>
+                <a href="saiba-mais.html" target="_blank">
+                    <button class="botao-saiba-mais">Saiba mais</button>
+                </a>
+            </div>
+            </div>
+            <img class="vinland-principal" src="./src/imagens/vinland-saga-chars-principal.png">
+            <img class="vinland-secundario" src="./src/imagens/vinland-saga-chars-secundario.png">
+        </main>
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/f8JrZ7Q_p-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <script src="./src/js/index.js"></script>
+    </body>
+</html>

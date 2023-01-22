@@ -1,0 +1,94 @@
+body {
+    font-family: 'Poppins';
+    background-color: #ffa500;
+}
+
+.container .titulo-chars {
+    background: linear-gradient(90deg, rgba(203,6,25,1) 0%, rgba(203,6,25,1) 21%, rgba(255,188,0,1) 66%);
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1660px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cabecalho .logo {
+    display: flex;
+    align-items: center;
+    width: 70px;
+}
+
+.cabecalho .logo:hover {
+    animation-name: rotate;
+    animation-duration: 0.3s;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.cabecalho .menu {
+    display: flex;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.cabecalho .menu li a {
+    padding: 15px;
+    text-decoration: none;
+    color: red;
+}
+
+.cabecalho .menu li a:hover {
+    color: rgb(168, 71, 71);
+}
+
+.container {
+    max-width: 1660px;
+    height: calc(100vh - 110px);
+    padding: 30px 30px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container .div-chars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 105px auto;
+}
+
+.container .div-infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .nome-chars {
+    font-size: 40px;
+    color: white;
+}
+
+.container .img-chars {
+    width: 200px;
+}
+
+.container .nome-chars {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .p-chars {
+    font-size: 15px;
+}

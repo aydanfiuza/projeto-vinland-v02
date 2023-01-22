@@ -1,0 +1,195 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: rgb(192, 151, 124)
+    }
+
+    .fundo-video {
+        display: none
+    }
+
+    .cabecalho {
+        flex-wrap: wrap;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .logo {
+        display: flex;
+        text-align: center;
+    }
+
+    .container .descricao {
+        color: white;
+        font-size: 15px;
+    }
+
+    .container .imagem-titulo-principal {
+        display: none;
+    }
+
+    .container .imagem-titulo-responsive {
+        display: flex;
+        width: 30%;
+    }
+
+    .container .vinland-secundario {
+        display: flex;
+        width: 30%;
+    }
+
+    .container .vinland-principal {
+        display: none;
+    }
+
+    .container .vinland-secundario {
+        display: flex;
+        width: 30%;
+    }
+
+    .container .botao-trailer {
+        font-size: 12px;
+    }
+
+    .container .botao-saiba-mais {
+        font-size: 12px;
+    }
+
+    .modal #video {
+        width: 480px;
+        height: 269px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cabecalho {
+        flex-wrap: wrap;
+    }
+
+    .cabecalho .logo {
+        width: 50px;
+        display: flex;
+        text-align: center;
+    }
+
+    .cabecalho .menu li a {
+        font-size: 17px;
+    }
+
+    .container .imagem-titulo-principal {
+        display: none;
+    }
+
+    .container .imagem-titulo-responsive {
+        display: flex;
+        width: 45%;
+    }
+    
+    .container .descricao {
+        font-size: 16px;
+    }
+
+    .container .vinland {
+        display: none;
+    }
+
+    .container .vinland-secundario {
+        display: flex;
+        width: 45%;
+    }
+
+    .container .botao-trailer {
+        font-size: 12px;
+    }
+
+    .container .botao-saiba-mais {
+        font-size: 12px;
+    }
+
+    .modal .fechar-modal {
+        width: 30px;
+        line-height: 30px;
+    }
+
+    .modal #video {
+        width: 300px;
+        height: 170px;
+    }
+}
+
+@media (max-width: 330px){
+    .cabecalho {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .container .div-botoes {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .container .botao-saiba-mais {
+        margin: 0 auto;
+        width: 130px;
+        height: 47px;
+    }
+
+    .modal #video {
+        width: 210px;
+        height: 120px;
+    }
+}
+
+@media (max-height: 769px) {
+    .container .imagem-titulo-principal {
+        max-width: 30%;
+    }
+
+    .container .descricao {
+        font-size: 15px;
+    }
+
+    .container .vinland-principal {
+        max-width: 20%;      
+    }
+
+    .fundo-video::after {
+        background: linear-gradient(90deg, #040203 0%, rgba(0, 0, 0, 0.80) 49%, #040203 100%);
+        }
+}
+
+@media (max-height: 570px) {
+    .cabecalho {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container .imagem-titulo-principal {
+        max-width: 30%;
+    }
+
+    .container .descricao {
+        font-size: 15px;
+    }
+
+    .container .vinland-principal {
+        max-width: 10%;      
+    }
+
+    .fundo-video::after {
+    background: linear-gradient(90deg, #040203 0%, rgba(0, 0, 0, 0.85) 49%, #040203 100%);
+    }
+}
